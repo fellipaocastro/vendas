@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class VendasApplication {
-    @Value("${application.name}")
+    @Value("${spring.application.name}")
     private String applicationName;
 
     @GetMapping("/hello")
