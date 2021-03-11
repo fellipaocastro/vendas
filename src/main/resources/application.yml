@@ -1,6 +1,6 @@
 spring:
-  application:
-    name: Sistema de Vendas
+  profiles:
+    active: development
 server:
   port: 8081
   servlet:
